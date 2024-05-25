@@ -1,0 +1,85 @@
+[
+    {
+      "id": "1kR05taBOXps7LMzhzuc",
+      "name": "Angular"
+    },
+    {
+      "id": "2PhkZmVHUmf3XZl2qUFM",
+      "name": "Java"
+    },
+    {
+      "id": "2bQvboFEL8kOtFBDGTlU",
+      "name": "Rust"
+    },
+    {
+      "id": "6KdpGkT0S5mpjPtFUV1c",
+      "name": "Sass"
+    },
+    {
+      "id": "9B6YbdQlL9Bmvbtg9C3C",
+      "name": "UX"
+    },
+    {
+      "id": "E9GJGOYCHocnOGVIwKdA",
+      "name": "AWS"
+    },
+    {
+      "id": "EnvYjcM2QPNUmK8iWt1D",
+      "name": "Swift"
+    },
+    {
+      "id": "MZTFtFTwJdUZKPCwgNJB",
+      "name": "Etical Hacking"
+    },
+    {
+      "id": "NYMo5WigrBtiOlCyOx9W",
+      "name": "PHP"
+    },
+    {
+      "id": "QPLgUHQhLH4cPdNPhlyo",
+      "name": "C#"
+    },
+    {
+      "id": "SAprxPubvfuvTKlAwJbr",
+      "name": ".NET"
+    },
+    {
+      "id": "SjCjP2MKFkA1zwVUfvYT",
+      "name": "Laravel"
+    },
+    {
+      "id": "bBgJCavN58QmuLulodAZ",
+      "name": "Javascript"
+    },
+    {
+      "id": "ctuSNJFcSjvNzxHirhoo",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "fBZaHFaPcXVPUw5UsEPy",
+      "name": "SQL"
+    },
+    {
+      "id": "h2Q89F5vtp3qS7yzDNpD",
+      "name": "Python"
+    },
+    {
+      "id": "iINTRA4ZETalZHRrqlh3",
+      "name": "TypeScript"
+    },
+    {
+      "id": "kaPnBYidwXSyG4pB3xEz"
+    },
+    {
+      "id": "plkP8IoHyp3vlntDsgxr",
+      "name": "Next.js"
+    },
+    {
+      "id": "szdySKzSdIDf2O0eFCqk",
+      "name": "Backend"
+    },
+    {
+      "id": "zw1ZFzftzkpKkB9FPGIU",
+      "name": "Frontend"
+    }
+  ]

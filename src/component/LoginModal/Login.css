@@ -1,0 +1,76 @@
+/* .modal-content{
+    border: 0!important;
+    border-radius: 0!important;
+    background-color: #172a3ec4;
+    backdrop-filter: blur(2px);
+    width: 30%;
+  }
+  .modal-body{
+    padding-top:0!important
+  }
+  .modal-header{
+    border-bottom: 0!important;
+  }
+  .modal-footer{
+    border-top: 0!important;
+  }
+
+  #signin{
+    cursor: pointer;
+    color: aqua;
+  }
+
+  #signin:hover{
+    color: aliceblue;
+  } */
+
+
+  .swal2-icon-success{
+    display: grid;
+    background: #021113d9;
+    backdrop-filter: blur(3px);
+    color: #4ca5bb;
+    border-radius: 1px;
+    border: 1px solid #00e1ff70;
+  }
+
+
+  .swal2-icon-success .swal2-confirm{
+    display: inline-block;
+    background: transparent;
+    border: 1px double #3b627f;
+    color: #71a4ca;
+    min-width: 8vw;
+    border-radius: 0;
+  }
+
+  .swal2-icon-success .swal2-confirm:hover{
+    filter:brightness(2);
+    transition: .3s;
+  }
+  .swal2-icon-error{
+    display: grid;
+    background: #021113d9;
+    backdrop-filter: blur(3px);
+    color: #4ca5bb;
+    border-radius: 1px;
+    border: 1px solid #ff00005e;
+    transition: .3s;
+
+  }
+
+  .swal2-icon-error .swal2-confirm{
+    display: inline-block;
+    background: transparent;
+    border: 1px double #3b627f;
+    color: #71a4ca;
+    min-width: 8vw;
+    border-radius: 0;
+  }
+
+
+
+  .swal2-icon-error .swal2-confirm:hover{
+    filter:brightness(2);
+    transition: .3s;
+  }

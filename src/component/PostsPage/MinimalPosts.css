@@ -1,0 +1,136 @@
+.minimal-posts-item {
+  color: white;
+  border: 1px solid #1d85af;
+  margin: 20px 0px;
+  list-style-type: none;
+  background: #02070866;
+  padding: 10px;
+  transition: 0.3s cubic-bezier(0, 1.11, 0.42, 1.58);
+  width: 97%;
+}
+/* .minimal-posts-list{ } */
+.minimal-posts-item:hover {
+  transform: translate(-15px, 0px);
+  transition: 0.15s cubic-bezier(0, 0.5, 0.49, 0.93);
+  cursor: pointer;
+  box-shadow: -40px 0px 500px -10px #167cbb78, 0px 0px 20px 2px #bde6ff12;
+  background: #000d13bd;
+}
+.minimal-posts-container {
+  max-height: 40vw;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: inset 0px 0px 20px 0px #01a0ee8f;
+}
+
+.monaco-editor {
+  width: 717px;
+  height: 384px;
+  background: #070e13ab !important;
+  box-shadow: inset 1px -2px 231px -88px #05476f !important;
+  border: 1px solid black !important;
+}
+.monaco-editor .margin {
+  background: transparent !important;
+  border-right: 2px solid #81a0c14b;
+}
+.monaco-editor.no-user-select .lines-content {
+  background: transparent !important;
+  margin: 10px;
+}
+/* .monaco-editor .margin {
+    background: #1d2129 !important;
+    border-right: 2px solid #81a0c14b;
+}
+.monaco-editor.no-user-select .lines-content{
+    background:#1d2129!important;
+    margin:10px
+} */
+.mtk6 {
+  color: #81a0c1 !important;
+}
+.mtk1 {
+  color: #d8dde9 !important;
+}
+
+.mtk5 {
+  color: #a3be8c !important;
+}
+.monaco-editor .bracket-highlighting-0 {
+  color: #d5d266 !important;
+}
+.mtk1 {
+  color: #d9dbdd !important;
+}
+.monaco-editor .view-overlays .current-line {
+  border: 1px solid #81a0c14b !important;
+}
+
+.monaco-editor .view-overlays .current-line {
+  box-shadow: inset 0px 0px 13px -2px #81a0c13d;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: transparent !important;
+}
+.dropdown-toggle:active {
+  background: transparent;
+  backdrop-filter: brightness(1.2);
+  background-color: transparent !important;
+}
+.dropdown-toggle:hover {
+  background: transparent;
+  backdrop-filter: brightness(1.2);
+  background-color: transparent !important;
+}
+.dropdown-toggle:focus-visible {
+  background: transparent;
+  backdrop-filter: brightness(1.2);
+  background-color: transparent !important;
+}
+.dropdown-toggle {
+  white-space: nowrap;
+  background: transparent;
+  color: white;
+  border: 1px solid #00aaff80;
+  padding: 5px 12px;
+}
+
+.dropdown-menu {
+  max-height: 400px !important;
+  overflow-y: scroll !important;
+  border-radius: 0;
+  background: #0f2430b5 !important;
+  color: white;
+}
+.dropdown-item {
+  color: white;
+}
+.filters {
+  display: flex;
+  padding: 30px;
+  backdrop-filter: blur(3px);
+  border: 1px solid #052934;
+}
+
+.tag-select .btn-group {
+  position: relative;
+  display: flex;
+  vertical-align: top;
+}
+.tags {
+  align-items: start !important;
+}
+.tags #btn-edit {
+  margin: 0;
+}
+
+.minimal-posts-item button {
+  border: 1px solid #00aaff;
+  background: transparent;
+  color: white;
+  letter-spacing: 2px;
+}

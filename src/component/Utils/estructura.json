@@ -1,0 +1,42 @@
+[
+  {
+    "tags": ["Angular", "Frontend"],
+    "text": "<p>Consulta sobre el uso de Angular para crear una aplicación web interactiva. ¿Cuáles son las mejores prácticas para la gestión de estado en Angular?</p>",
+    "type": "Consulta",
+    "code": "console.log('Hola desde Angular!')",
+    "title": "Consulta: Desarrollo con Angular",
+    "language": "Angular"
+  },
+  {
+    "tags": ["Java", "Backend"],
+    "text": "<p>Ticket por problema de rendimiento en una aplicación backend desarrollada en Java. El sistema está experimentando latencia significativa durante las operaciones de base de datos.</p>",
+    "type": "Ticket",
+    "code": "System.out.println('Hola desde Java!')",
+    "title": "Ticket: Problema de Rendimiento en Backend con Java",
+    "language": "Java"
+  },
+  {
+    "tags": ["TypeScript", "Frontend"],
+    "text": "<p>Error en una aplicación frontend con TypeScript. Parece que hay problemas de tipado que están causando errores de compilación y fallos en tiempo de ejecución.</p>",
+    "type": "Error",
+    "code": "console.log('Hola desde TypeScript!')",
+    "title": "Error: Problemas de Tipado en Proyecto con TypeScript",
+    "language": "TypeScript"
+  },
+  {
+    "tags": ["Python", "SQL", "Backend"],
+    "text": "<p>Consulta sobre la integración de Python con bases de datos SQL. Necesito consejos sobre cómo optimizar las consultas para mejorar la eficiencia.</p>",
+    "type": "Consulta",
+    "code": "import sqlite3\nprint(\"Hola desde Python!\")",
+    "title": "Consulta: Integración de Python con Bases de Datos SQL",
+    "language": "Python"
+  },
+  {
+    "tags": ["Sass", "Frontend", "UX"],
+    "text": "<p>Ticket por problemas de diseño en una aplicación frontend usando Sass. Los estilos no se aplican correctamente y la experiencia del usuario se ve afectada.</p>",
+    "type": "Ticket",
+    "code": "console.log('Hola desde Sass!')",
+    "title": "Ticket: Problemas de Diseño con Sass",
+    "language": "Sass"
+  }
+]

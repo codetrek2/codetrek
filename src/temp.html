@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal Form</title>
+
+</head>
+<body>
+    <div class="open">Open Modal</div>
+
+    <div class="modal hidden">
+        <div class="form">
+            <form>
+                <label for="name">Full Name</label>
+                <input id="name" type="text" required>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" required>
+                <label for="pass">Password</label>
+                <input id="pass" type="password" required>
+                <button type="button">Sign Up</button>
+            </form>
+        </div>
+        <div class="invite">
+            <h3>Register now for our award-winning service and get a 14 day free trial.</h3>
+            <div class="nope">No thanks, I don't like saving money</div>
+            <div class="close" title="close"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+  const modal = document.querySelector('.modal');
+  const open = document.querySelector('.open');
+  const closeElements = document.querySelectorAll('.close, .nope');
+
+  closeElements.forEach(function (element) {
+    element.addEventListener('click', function () {
+      modal.classList.add('hidden');
+      open.classList.add('active');
+    });
+  });
+
+  open.addEventListener('click', function () {
+    this.classList.remove('active');
+    modal.classList.remove('hidden');
+  });
+});
+
+    </script> <!-- Link to your JavaScript file -->
+</body>
+</html>

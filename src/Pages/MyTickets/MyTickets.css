@@ -1,0 +1,35 @@
+h3,
+h4 {
+  color: white;
+}
+
+.display-meta .dropdown {
+  position: absolute;
+  right: 0;
+}
+.display-meta {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.display-meta p {
+  margin-bottom: 0;
+}
+.mytickets {
+  position: relative;
+  max-height: 100%;
+  padding-top: 0px;
+  padding-top: 0 !important;
+}
+
+.mytickets .single-clicked-post {
+  margin-top: 0;
+  border: 1px solid #0084ff7d;
+  padding: 10px;
+  background: #021a207d;
+}
+
+.mytickets .code-box {
+  max-height: 30vw;
+  overflow-y: scroll;
+}

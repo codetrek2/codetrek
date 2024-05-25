@@ -1,0 +1,98 @@
+.comment-content {
+  max-width: 100%;
+}
+
+#comment-username {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+}
+
+#comment-user-title {
+  font-size: 1em;
+  color: white;
+}
+
+.skill {
+  margin: 5px 0;
+  color: white;
+}
+
+.skill-name {
+  font-size: 0.9em;
+  color: white;
+}
+
+.stars {
+  display: flex;
+}
+
+.comment-meta {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.comment-fecha {
+  font-size: 0.9em;
+  color: white;
+}
+
+.comment-post-text {
+  padding: 10px;
+}
+
+.comment-sidebar {
+  padding: 10px;
+}
+
+.comment-item-box {
+  max-width: 100%;
+}
+
+.post-background .post-box {
+  width: 70vw;
+}
+
+.comment-container {
+  max-width: 100%;
+  border-bottom: 1px solid #00aaff6b;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.comment-container .content {
+  width: auto;
+  max-width: 35vw;
+}
+.comment-container .reply-container {
+  width: auto !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.row-comment {
+  display: flex;
+}
+.comment-container .post-text {
+  border: 1px solid #00000029;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-left: 3px solid #0183c3;
+  /* background: #0570f94d; */
+}
+.post-text {
+  word-break: break-word;
+}
+
+/* .toggle-replies-btn {
+  position: absolute;
+  width: auto;
+  right: 13vw;
+  bottom: 1vw;
+} */
+
+.expand-code svg {
+  margin: 0px 5px;
+  fill: #00aaff;
+}

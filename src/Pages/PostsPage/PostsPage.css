@@ -1,0 +1,49 @@
+.post-main {
+  overflow-y: scroll !important;
+}
+:root {
+  --background-color: #4684ee;
+  --loader-color: #0af;
+  --loader-size: 30vh;
+}
+
+.loader {
+  color: rgb(0 191 255);
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: var(--loader-size);
+  opacity: 0.8;
+}
+
+.loader span {
+  display: inline-block;
+  animation: pulse 0.7s alternate infinite cubic-bezier(0.61, 0.79, 0.09, 0.97);
+}
+
+.loader span:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.8;
+    color: var(--loader-color);
+  }
+}
+
+.postpage {
+  max-width: 100%;
+  padding: 0px 10vw;
+  position: relative;
+  max-height: 100%;
+  background: linear-gradient(1deg, #0e273f7d, #10325700);
+  /* border-top: 5px solid #1a253d; */
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  /* box-shadow: 0px -40px 120px 60px #123459; */
+}
+
+.posts .postpage {
+  padding-top: 0;
+}
